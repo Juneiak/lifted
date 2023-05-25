@@ -1,27 +1,93 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --ff-b: 'Roboto', Helvetica, Arial, sans-serif;
+  
+  --c-primary: #cb0c9f;
+  --c-secondary: #8392ab;
+  --c-info: #17c1e8;
+  --c-success: #82d616;
+  --c-warning: #fbcf33;
+  --c-error: #ea0606;
+
+  --c-white: #fff;
+  --c-black: #000;
+  --c-light: #e9ecef;
+  --c-dark: #344767;
+  --c-dark-2: #67748e;
+  --с-blue: #63b3ed;
+  --с-indigo: #596cff;
+  --с-purple: #6f42c1;
+  --с-pink: #d63384;
+  --с-red: #f56565;
+  --с-orange: #fd7e14;
+  --с-yellow: #fbd38d;
+  --с-green: #81e6d9;
+  --с-teal: #20c997;
+  --с-cyan: #0dcaf0;
+  --с-gray: #6c757d;
+
+  --gc-primary: linear-gradient(310deg, #7928ca, #ff0080);
+  --gc-secondary: linear-gradient(310deg, #627594, #a8b8d8);
+  --gc-info: linear-gradient(310deg, #2152ff, #21d4fd);
+  --gc-success: linear-gradient(310deg, #17ad37, #98ec2d);
+  --gc-warning: linear-gradient(310deg, #f53939, #fbcf33);
+  --gc-error: linear-gradient(310deg, #ea0606, #ff667c);
+
+  --gc-light: linear-gradient(310deg, #ced4da, #ebeff4);;
+  --gc-dark: linear-gradient(310deg, #141727, #3a416f);
+  --gc-purple: linear-gradient(310deg,#7928ca,#ff0080);
+
+  --c-100: #f8f9fa;
+  --c-200: #e9ecef;
+  --c-300: #dee2e6;
+  --c-400: #ced4da;
+  --c-500: #adb5bd;
+  --c-600: #6c757d;
+  --c-700: #495057;
+  --c-800: #343a40;
+  --c-900: #212529;
+
+  --fs-2xs: 10rem;
+  --fs-xs: 12rem;
+  --fs-sm: 14rem;
+  --fs-md: 16rem;
+  --fs-lg: 18rem;
+  --fs-xl: 20rem;
+  --fs-2xl: 24rem;
+  --fs-3xl: 30rem;
+  --fs-4xl: 36rem;
+  --fs-5xl: 48rem;
+  --fs-6xl: 60rem;
+  --fs-7xl: 72rem;
+  --fs-8xl: 96rem;
+}
+
+html {
+  max-width: 100vw;
+  font-size: calc(1vw / 14.4);
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+  background-color: var(--c-white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, pre, p, a, span, button, input {
+  font-family: var(--ff-b);
+}
+
+ul {
+  list-style: none;
 }

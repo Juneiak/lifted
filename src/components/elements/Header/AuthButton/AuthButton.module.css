@@ -1,0 +1,12 @@
+.button {
+  width: 120rem;
+  height: 34rem;
+  padding: 9rem 32rem;
+  border: none;
+  border-radius: 20rem;
+
+  background-image: var(--gc-purple);
+  color: var(--c-white);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}

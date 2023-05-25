@@ -1,0 +1,36 @@
+.layout {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250rem 1fr;
+  
+}
+
+.navContainer {
+  width: 100%;
+  height: 100%;
+  padding: 16rem;
+  border-right: 1rem solid black;
+}
+
+.nav {
+  height: 100%;
+}
+
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 30rem ;
+}
+
+.navList li {
+  color: var(--c-dark-2);
+  font-size: var(--fs-sm);
+  font-weight: 300;
+  font-family: var(--ff-b);
+}

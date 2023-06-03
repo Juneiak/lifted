@@ -1,5 +1,3 @@
-'use client';
-
 import styles from './LinkButton.module.css'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation';

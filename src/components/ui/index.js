@@ -4,7 +4,6 @@ import GlitchText from './GlitchText/GlitchText'
 import Loader from './Loader/Loader';
 import Logo from "./Logo/Logo";
 import PageWaves from './PageWaves/PageWaves';
-import WrappedIcon from './WrappedIcon/WrappedIcon'
 export {
   Input,
   Button,
@@ -12,5 +11,4 @@ export {
   Loader,
   Logo,
   PageWaves,
-  WrappedIcon,
 }

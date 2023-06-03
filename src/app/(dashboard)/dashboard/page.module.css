@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 24rem;
+  background-color: var(--c-400);
+}
+
+.container h1 {
+  color: var(--c-dark);
+  font-size: var(--fs-3xl);
+  margin-bottom: 24rem;
+  align-self: flex-start;
+}
+
+.mapTable {
+  width: 100%;
+  min-height: 400rem;
+  border-radius: 14rem;
+  background-color: var(--c-white);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 16rem;
+}
+
+.tableContainer {
+
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.about > div {
+  width: 48rem;
+  height: 48rem;
+  border-radius: 7rem;
+  background-image: var(--gc-info);
+  font-size: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about > p {
+  font-size: var(--fs-lg);
+  color: var(--c-dark)
+}
+
+.table {
+
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

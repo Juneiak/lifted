@@ -1,4 +1,4 @@
-import styles from './NotReadyPageTemplate.module.css';
+import styles from './not-ready-page-template.module.css';
 import { GlitchText } from '../../ui';
 import Link from 'next/link';
 

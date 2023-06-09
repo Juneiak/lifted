@@ -1,4 +1,4 @@
-import styles from './NotFoundPageTemplate.module.css'
+import styles from './not-found-page-template.module.css'
 import { GlitchText } from '@/components/ui';
 import Link from 'next/link';
 

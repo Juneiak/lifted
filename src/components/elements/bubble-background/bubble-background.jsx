@@ -1,4 +1,4 @@
-import styles from './BubbleBackground.module.css'
+import styles from './bubble-background.module.css'
 
 export default function BubbleBackground() {
   return (

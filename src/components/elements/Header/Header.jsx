@@ -1,5 +1,5 @@
-import styles from './Header.module.css';
-import AuthButton from './AuthButton/AuthButton';
+import styles from './header.module.css';
+import AuthButton from './auth-button/auth-button';
 import Link from 'next/link';
 
 export default function Header() {

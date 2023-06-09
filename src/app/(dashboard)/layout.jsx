@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import './styles.css';
 import styles from './layout.module.css';

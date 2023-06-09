@@ -1,4 +1,4 @@
-.container {
+.layout {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,18 +8,10 @@
   background-color: var(--c-200);
 }
 
-.container h1 {
+.title {
   color: var(--c-dark);
   font-size: var(--fs-3xl);
   margin-bottom: 24rem;
   align-self: flex-start;
 }
 
-
-.charts {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20rem;
-  padding: 20rem 0;
-}

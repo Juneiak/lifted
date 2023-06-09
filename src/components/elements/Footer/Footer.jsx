@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+import styles from './footer.module.css';
 import Link from 'next/link';
 import { SiYoutube, SiVk, SiTelegram, SiInstagram } from "react-icons/si";
 

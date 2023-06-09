@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-200);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  'title controll'
+  'subtitle controll';
+}
+
+.about > h2 {
+  font-size: var(--fs-xl);
+  color: var(--c-dark);
+  grid-area: title;
+}
+
+.about > p {
+  font-size: var(--fs-sm);
+  color: var(--c-dark-2);
+  grid-area: subtitle;
+}
+
+.addButton {
+  width: 400rem;
+  grid-area: controll;
+}
+
+.table {
+  width: 100%;
+}
+
+.table > thead  {
+  font-size: var(--fs-sm);
+  color: var(--c-dark-2);
+  font-family: var(--ff-b);
+}
+
+.table > tbody {
+  width: 100%;
+}

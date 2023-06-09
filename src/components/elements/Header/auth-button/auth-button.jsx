@@ -1,7 +1,7 @@
 'use client';
 
 import { useContext } from 'react';
-import styles from './AuthButton.module.css';
+import styles from './auth-button.module.css';
 import { AuthContext } from '@/contexts';
 
 export default function AuthButton({ handler = () => false}) {
